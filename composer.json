@@ -1,0 +1,23 @@
+{
+    "name": "tombenevides/said-quotes",
+    "description": "A simple way to get said quotes",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Tombenevides\\SaidQuotes\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tom Benevides",
+            "email": "eltonfelixbenevides@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "pestphp/pest": "^1.20"
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.4"
+    }
+}
